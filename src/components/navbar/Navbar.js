@@ -13,7 +13,7 @@ const Navbar = () => {
                         src="https://static.vecteezy.com/system/resources/previews/009/797/431/original/streaming-icon-broadcast-icon-for-your-web-site-design-logo-app-ui-live-streaming-symbol-video-streaming-sign-vector.jpg"
                         alt="Learn with Sumit"
                     />
-                    <h1 className='font-bold text-3xl'><span className='text-5xl'>V</span>Box</h1>
+                    <h1 className='font-bold text-3xl'><span className='text-5xl'>VD</span>Box</h1>
                 </a>
                 <div
                     class="border border-slate-200 flex items-center bg-white h-10 px-5 rounded-lg text-sm ring-emerald-200"
@@ -22,8 +22,8 @@ const Navbar = () => {
                     <Search></Search>
                     
                     <img
-                        class="inline h-4 cursor-pointer"
-                        src="./assets/search.svg"
+                        class="inline h-5 cursor-pointer"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0DRetqdDRnICCWL2dS77eHXv4Zx26wDq6tg&usqp=CAU"
                         alt="Search"
                     />
                 </div>
