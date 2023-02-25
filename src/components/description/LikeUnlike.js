@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LikeUnlike = () => {
+const LikeUnlike = ({video}) => {
     return (
         <div className="flex gap-10 w-48">
             <div className="flex gap-1 h-7">
@@ -14,7 +14,7 @@ const LikeUnlike = () => {
                 <div
                     className="text-sm leading-[1.7142857] text-slate-600"
                 >
-                    100K
+                    {video.likes}
                 </div>
             </div>
             <div className="flex gap-1 h-7">
@@ -28,7 +28,7 @@ const LikeUnlike = () => {
                 <div
                     className="text-sm leading-[1.7142857] text-slate-600"
                 >
-                    100K
+                    {video.unlikes}
                 </div>
             </div>
         </div>
